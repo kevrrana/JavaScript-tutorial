@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pelit Pastaneleri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="sabitler.css">
+    <link rel="stylesheet" href="tasarim.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+  </head>
+  <body>
+    
+    <!-- üst kısım -->
+     <header>
+        <!-- 1.üst satır -->
+         <div class="bg-secondary">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 d-flex">
+                  <!-- lang menu -->
+                  <ul class="nav" id="lang-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">TR</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">EN</a>
+                    </li>
+                  </ul>
+
+                  <!-- ikinci kısım -->
+
+                  <ul class="nav" id="social-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-disabled="true"><i class="bi bi-pinterest"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-disabled="true">in</a>
+                    </li>
+                  </ul>
+
+                  <!-- searce kısmı -->
+                  <form id="searce-panel" class="d-flex ms-auto" role="search">
+                    <input class="form-control  border-0 rounded-0 bg-dark text-white" type="search" placeholder="Arama Yapın...." aria-label="Search">
+                    <button class="btn btn-dark rounded-0" type="submit"><i class="bi bi-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+         </div>
+
+         <!-- 2.üst satır -->
+         <div>
+          <div class="container">
+            <div class="row justify-content-center py-3">
+              <div class="col-4 col-md-2">
+                <a href="index.html">
+                  <img src="upload/pelit-logo-2-min.png" alt="logo" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <!-- 3.üst satır -->
+         <div class="bg-primary">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <nav id="main-menu" class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="yeni-urun.html">Yeni Ürün</a>
+                        </li>
+
+                        <!-- mega menü -->
+                        <li class="nav-item dropdown position-static">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ürünler
+                          </a>
+                          <ul class="dropdown-menu start-0 end-0 rounded-0 mt-2" data-bs-theme="dark"> <!--mt-0 yaparsak menüyle mega menü arasında boşluk olmaz-->
+                            <li>
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <h3 class="text-center display-6">ÜRÜNLERİMİZ ╰(*°▽°*)╯</h3>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12 col-md-3">
+                                    <h5>Pasta Çeşitleri 🎂</h5>
+                                    <nav class="nav flex-column">
+                                      <a class="nav-link link-light" href="#">Çilekli Pasta</a>
+                                      <a class="nav-link link-light" href="#">Lotuslu Pasta</a>
+                                      <a class="nav-link link-light" href="#">Çikolatalı Pasat</a>
+                                      <a class="nav-link link-light" href="#">Karamelli Pasat</a>
+                                    </nav>
+                                  </div>
+                                  <div class="col-12 col-md-3">
+                                    <h5>Kurabiye Çeşitleri 🍪</h5>
+                                    <nav class="nav flex-column">
+                                      <a class="nav-link link-light" href="#">Tuzlu Kurabiye</a>
+                                      <a class="nav-link link-light" href="#">Tuzlu Kurabiye</a>
+                                      <a class="nav-link link-light" href="#">Dubaiyi Kurabiyesi</a>
+                                      <a class="nav-link link-light" href="#">Çaylı Kurabiye</a>
+                                      <a class="nav-link link-light" href="#">Tarçınlı Kurabiye</a>
+                                    </nav>
+                                  </div>
+
+                                  <div class="col-12 col-md-3">
+                                    <h5>Ekler Çeşitleri 🌸</h5>
+                                    <nav class="nav flex-column">
+                                      <a class="nav-link link-light" href="#">Limonlu Ekler</a>
+                                      <a class="nav-link link-light" href="#">Orman Meyveli Ekler</a>
+                                      <a class="nav-link link-light" href="#">Karamelli Ekler</a>
+                                      <a class="nav-link link-light" href="#">Frambuazlı Ekler</a>
+                                      <a class="nav-link link-light" href="#">Böğürtlenli Kurabiye</a>
+                                    </nav>
+                                  </div>
+                                  <div class="col-12 col-md-3">
+                                    <div class="row g-3">
+
+                                      <div class="col-6">
+                                        <a href="#">
+                                          <img src="upload/balkabakli-cheseecakes-1-350x267.jpg" class="img-fluid rounded" alt="Balkabaklı Pastası">
+                                        </a>
+                                      </div>
+                                      <div class="col-6">
+                                        <a href="#">
+                                          <img src="upload/bavaruaz-4-350x267.jpg" class="img-fluid rounded" alt="Beyaz İnci Pastası">
+                                        </a>
+                                      </div>
+                                      <div class="col-6">
+                                        <a href="#">
+                                          <img src="upload/chocolate-special-6-kopya-350x267.jpg" class="img-fluid rounded" alt="Çikolatalı Pastası">
+                                        </a>
+                                      </div>
+                                      <div class="col-6">
+                                        <a href="#">
+                                          <img src="upload/cilek-muzlu-6-350x267.jpg" class="img-fluid rounded" alt="Çilekl Pastası">
+                                        </a>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <!-- mega menü BİTİŞ -->
+
+                          <li class="nav-ıtem">
+                            <a href="https://www.cikolatamuzesi.com.tr" class="nav-link">Çikolata Müzesi</a>
+                          </li>
+                          <li class="nav-ıtem">
+                            <a href="hediye.html" class="nav-link">Hediye</a>
+                          </li>
+                          <li class="nav-ıtem">
+                            <a href="iletisim.html" class="nav-link">İletişim</a>
+                          </li>
+                          <li class="nav-ıtem">
+                            <a href="hediye.html" class="nav-link">Hakkımızda</a>
+                          </li>
+                      </ul>
+                      <!-- sonra -->
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+         </div>
+     </header>
+
+     <!-- orta kısım -->
+      <main>
+        <div class="border-top border-bottom  border-1 border-dark my-3 ">
+           <div class="container justify-content-center">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb my-2 justify-content-center">
+                  <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Yeni Ürün</li>
+                </ol>
+              </nav>
+           </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/balkabakli-cheseecakes-1-350x267.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Balkabaklı Cheseecakes</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/bavaruaz-banner-min.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Bavaruaz Banner</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/petifur-min.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Petifur</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/tart-frambuazli-7-350x267.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tart Frambuazlı</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/cilek-muzlu-6-350x267.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Çilekli Muzlu</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/MANTAR-KULÜBE-PASTA--350x267.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mantar Kulübe Pasta</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/tartolet-min.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tartolet</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-md-3">
+                  <div class="card">
+                      <img src="upload/beyaz-inci-min.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Beyaz inci</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Sipariş ver</a>
+                      </div>
+                    </div>
+              </div>
+              
+          </div>
+      </div>
+
+      
+
+      </main>
+
+      <!-- alt kısım -->
+       <footer class="bg-secondary">
+        
+        <!-- 1.alt satır -->
+        <div class="container mt-4 py-3">
+          <div class="row justify-content-center">
+            <div class="col-md-2">
+              <a href="index.html">
+                <img src="upload/logo-bottom-min.png" alt="Logo" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- yatay çizgi -->
+        <div class="container">
+          <div class="yatay-cizgi"></div>
+        </div>
+
+        <!-- 2.alt satır -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Bilgi Toplama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Aydınlatma Metni</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-disabled="true">Pelit Pastacılık</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3.alt satır -->
+        <div class="bg-primary">
+          <div class="container">
+          <div class="row p-3 text-white align-items-center">
+            <div class="col-md-4">
+                <h4>Pelit Yıllardır Sizinle...</h4>
+            </div>    
+  
+            <div class="col-md-4 text-center">
+              Pelit 2020 &copy; Tüm Hakları Saklıdır.
+            </div>
+  
+            <div class="col-md-4 d-flex">
+              <ul class="nav" id="social-menu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-disabled="true"><i class="bi bi-pinterest"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-disabled="true">in</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+
+       </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
