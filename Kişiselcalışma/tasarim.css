@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(234, 224, 243);
+    font-family: 'Segoe UI',  sans-serif;
+}
+
+.bg-color{
+    background-color: rgb(169, 211, 245);
+}
+
+.text-color{
+    color: rgb(236, 216, 255);
+}
+
+.btn-dark{
+    background-color:#333 ;
+    border: none;
+}
+
+.btn{
+    background-color: rgb(236, 216, 255) ;
+}
+
+footer{
+    background-color:  rgb(169, 211, 245);
+}
+
+header{
+    background-color:  rgb(169, 211, 245);
+}
+
